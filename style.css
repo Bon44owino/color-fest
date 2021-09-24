@@ -1,0 +1,63 @@
+body{
+    font-family: 'Pacifico', cursive;
+}
+.top-section h3{
+    color: #D90368;
+
+}
+.top-section p i{
+    color: black;
+}
+.top-section ul li i{
+    font-size: 20px;
+    color: #D90368;
+
+}
+.top-section ul li i:hover{
+    margin-left: 5px;
+    transform: scale(1.005);
+    transition: ease-in-out .11s;
+    border: 2px solid #D90368;
+    padding: 5px;
+    border-radius: 50%;
+}
+/*Navigation Bar */
+.navbar ul.navbar-nav{
+    font-size: 20px;
+}
+/*Carousel Stylings */
+.carousel img{
+    height: 90vh;
+}
+.carousel .carousel-caption{
+    background-color:green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* program section */
+.program{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.program img{
+    height: 400px;
+    opacity: .7;
+}
+.progrm.card{
+    margin-bottom: 20px;
+}
+
+.program .card .card-body:hover{
+    background: rgb(3,217,136);
+    background: radial-gradient(circle, rgba(3,217,136,1) 0%, rgba(3,217,74,1) 100%);
+    color:white;
+    transition: ease-in-out .1s;
+}
+.program .card:hover img{
+opacity: 1;
+}
+.program .card:hover{
+    box-shadow: -2px 11px 21px -1px rgba(0,0,0,0.42);
+-webkit-box-shadow: -2px 11px 21px -1px rgba(0,0,0,0.42);
+-moz-box-shadow: -2px 11px 21px -1px rgba(0,0,0,0.42);
+}
