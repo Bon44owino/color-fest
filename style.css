@@ -22,8 +22,20 @@ body{
     border-radius: 50%;
 }
 /*Navigation Bar */
-.navbar ul.navbar-nav{
+nav{
+    padding-bottom: 0px!important;
+    padding-top: 0px!important;
+    
+}
+.navbar li{
     font-size: 20px;
+    padding: 20px;
+}
+
+nav ul li:hover{
+    color: rgb(102, 207, 102);
+    background: linear-gradient(rgb(101, 223, 101),rgb(233, 220, 220));
+    transition: ease-in-out 10s;
 }
 /*Carousel Stylings */
 .carousel img{
@@ -61,3 +73,124 @@ opacity: 1;
 -webkit-box-shadow: -2px 11px 21px -1px rgba(0,0,0,0.42);
 -moz-box-shadow: -2px 11px 21px -1px rgba(0,0,0,0.42);
 }
+/* plan section */
+.plan{
+    /* background-image: url("assets/blvck.jpg"),black; */
+    background: linear-gradient(rgb(22, 22, 22),rgb(96, 102, 96)),url("assets/blvck.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.plan .card{
+    border-top: 5px solid blue;
+}
+.plan .card i{
+    color: blue;
+    font-size: 28px;
+    margin-top: 20px;
+
+}
+.plan .card button{
+    background: linear-gradient(75d,nrgb(46, 46, 48),rgb(72, 72, 88));
+    border-radius: 0px! important;
+}
+.plan .recommend .card{
+    background-color: rgb(0, 255, 64);
+    box-shadow: 10px 10px 5px 0px rgba(87, 128, 109, 0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(143, 65, 65, 0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(36, 34, 34, 0.75);
+}
+/* plan section */
+.plan{
+    /* background-image: url("assets/blvck.jpg"),black; */
+    background: linear-gradient(rgb(255, 253, 253),rgb(136, 136, 136)),url("assets/what.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+/* plan section starts */
+}
+.calender h2{
+    background: linear-gradient(45deg, blue, rgb(76, 73, 211));
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+
+
+}
+.calender img{
+    height: 150px!important;
+    width: 150px!important;
+    border-radius: 50%;
+}
+.calender img{
+    height: 150px!important;
+    width: 150px!important;
+    border-radius: 50%;
+
+}
+.tickets {
+ background-image: url(assets/wheeler.jpg);
+ background-size: cover;
+ background-attachment: scroll;
+ padding-top: 150px;
+ padding-bottom: 150px;
+ text-align: center;
+ width: 100%!important;
+}
+.Conference{
+    background-image: url(assets/blvck.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    width: 100%!important;
+    
+    
+}
+.Conference ul{
+    list-style-type: none;
+}
+.footer{
+    background-image: url('./assets/grey.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 100%!important;
+}
+.footer ul li i{
+    color:white;
+}
+/* New section begins */
+.Speakers{
+    background-image: url('assets/no.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    width: 100%!important;
+    color: white;
+}
+.Speakers h2{
+    margin-left: 250px;
+    font-size: 50px;
+}
+.event-speakers img{
+    height: 600px;
+    width: 750px;
+    
+}
+.Events{
+    background-image: url('assets/no.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    width: 100%!important;
+    color: white;
+}
+.Events h2{
+    margin-left: 250px;
+    font-size: 50px;
+   
+}
+
+
